@@ -1,2 +1,2 @@
-from hentaihavendev import fact
-from hentaihavendev import nsfw
+from hentaihavendev.fact import fact
+from hentaihavendev.nsfw import nsfw
