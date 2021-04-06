@@ -1,6 +1,5 @@
 import setuptools as ok
 
-
 with open('README.md') as f:
     urmom = f.read()
 
@@ -15,6 +14,5 @@ ok.setup(
     url='https://github.com/unsecuring/hentaihavendev',
     packages=ok.find_packages(where="hentaihavendev"),
     install_requires=['requests'],
-    package_dir={"": "hentaihavendev"},
-
+    package_dir={"": "hentaihavendev"}
 )
